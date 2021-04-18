@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    redis:
+      key-prefix: benjsoft
+      time-to-live: 180000 # 3 minutes
+    cache-names: person
