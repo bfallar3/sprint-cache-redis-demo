@@ -48,7 +48,7 @@ public class PersonServiceImpl implements PersonService {
     }
 
     @Override
-    @Cacheable(value = "personCache")
+    //@Cacheable(value = "personCache")
     public List<Person> get() {
         return persons;
     }
